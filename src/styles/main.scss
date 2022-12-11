@@ -82,9 +82,11 @@ body {
 }
 
 .info {
+  display: flex;
+  background-color: #e2f2ff;
+
   &__content {
-    background-color: #e2f2ff;
-    padding: 80px 50px 30px;
+    margin: 80px 100px 30px 50px;
   }
 
   &__title {
@@ -110,12 +112,21 @@ body {
   &__button {
     margin-bottom: 60px;
   }
+
+  &__image {
+    object-fit: contain;
+    margin: 50px 60px 30px;
+  }
+
+  &-section {
+    margin-bottom: 90px;
+  }
 }
 
 .enterprises {
   &__title {
     font-size: 16px;
-    color: #001E41;
+    color: #001e41;
     margin: 0 0 10px;
   }
 
@@ -131,5 +142,14 @@ body {
 
   &__img {
     object-fit: contain;
+  }
+}
+
+.reasons {
+  &__title {
+    margin-bottom: 40px;
+    font-weight: 400;
+    color: #909090;
+    font-size: 36px;
   }
 }
