@@ -1,5 +1,5 @@
 # Plerdy
-[Preview Link](https://alexanderkolomiiets.github.io/Plerdy_test_task/)
+[Preview Link](https://alexanderkolomiiets.github.io/Plerdy_test-task/)
 
 Project is developed for:
 
