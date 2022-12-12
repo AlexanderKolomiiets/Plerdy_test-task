@@ -1,0 +1,55 @@
+.header {
+  display: flex;
+  padding: 0 90px;
+  margin-bottom: 40px;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: solid #e5e5e5 1px;
+}
+
+.logo {
+  display: flex;
+
+  &__img {
+    width: 140px;
+    height: 34px;
+  }
+}
+
+.nav__list {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  display: flex;
+}
+
+.nav__item:not(:last-child) {
+  margin-right: 30px;
+}
+
+.nav__link {
+  color: #000;
+  position: relative;
+  line-height: 77px;
+  padding: 28px 0;
+  text-decoration: none;
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.nav__link:hover {
+  color: #7d7d7d;
+}
+
+.nav__link:active {
+  filter: drop-shadow(4px 4px 4px rgba(0, 0, 0, 0.25));
+}
+
+.sign-up {
+  &__link {
+    color: #5d78ff;
+    text-decoration: none;
+    font-size: 18px;
+    margin-right: 40px;
+  }
+}

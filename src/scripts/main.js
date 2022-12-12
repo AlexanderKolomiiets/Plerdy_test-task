@@ -7,8 +7,8 @@ new Swiper('.swiper', {
   modules: [Navigation],
 
   grabCursor: true,
-  rewind: true,
-  slidesPerView: 4.2,
+  slidesPerView: 5,
+  spaceBetween: 17,
 
   navigation: {
     nextEl: '.swiper-button-next',

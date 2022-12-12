@@ -1,0 +1,41 @@
+.info {
+  display: flex;
+  background-color: #e2f2ff;
+
+  &__content {
+    margin: 80px 100px 30px 50px;
+  }
+
+  &__title {
+    margin: 0;
+    font-size: 40px;
+    color: #001e41;
+    margin-bottom: 16px;
+  }
+
+  &__description {
+    margin: 0 0 10px;
+    font-size: 16px;
+    color: #001e41;
+    line-height: 24px;
+
+    &--small {
+      margin: 0 0 16px;
+      font-size: 14px;
+      color: #909090;
+    }
+  }
+
+  &__button {
+    margin-bottom: 60px;
+  }
+
+  &__image {
+    object-fit: contain;
+    margin: 50px 60px 30px;
+  }
+
+  &-section {
+    margin-bottom: 90px;
+  }
+}

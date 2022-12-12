@@ -1,155 +1,21 @@
 @import "utils";
 @import "fonts";
 
+@import "./blocks/container.scss";
+@import "./blocks/header.scss";
+@import "./blocks/info.scss";
+@import "./blocks/enterprises.scss";
+@import "./blocks/button.scss";
+@import "./blocks/reasons.scss";
+@import "./blocks/card.scss";
+
 body {
   font-family: "Source Sans", sans-serif;
   margin: 0;
   padding: 0;
 }
 
-.container {
-  padding: 0 10px;
-
-  @include onDesktop {
-    padding: 0 90px;
-  }
+.swiper {
+  height: 370px;
 }
 
-.header {
-  display: flex;
-  padding: 0 90px;
-  margin-bottom: 40px;
-  justify-content: space-between;
-  align-items: center;
-  border-bottom: solid #e5e5e5 1px;
-}
-
-.logo {
-  display: flex;
-
-  &__img {
-    width: 140px;
-    height: 34px;
-  }
-}
-
-.nav__list {
-  margin: 0;
-  padding: 0;
-  list-style: none;
-  display: flex;
-}
-
-.nav__item:not(:last-child) {
-  margin-right: 30px;
-}
-
-.nav__link {
-  color: #000;
-  position: relative;
-  line-height: 77px;
-  padding: 28px 0;
-  text-decoration: none;
-  font-size: 18px;
-  font-weight: 600;
-}
-
-.nav__link:hover {
-  color: #7d7d7d;
-}
-
-.nav__link:active {
-  filter: drop-shadow(4px 4px 4px rgba(0, 0, 0, 0.25));
-}
-
-.button {
-  padding: 14px 24px;
-  border: none;
-  border-radius: 8px;
-  color: #fff;
-  background-color: #5d78ff;
-  font-size: 18px;
-  cursor: pointer;
-}
-
-.sign-up {
-  &__link {
-    color: #5d78ff;
-    text-decoration: none;
-    font-size: 18px;
-    margin-right: 40px;
-  }
-}
-
-.info {
-  display: flex;
-  background-color: #e2f2ff;
-
-  &__content {
-    margin: 80px 100px 30px 50px;
-  }
-
-  &__title {
-    margin: 0;
-    font-size: 40px;
-    color: #001e41;
-    margin-bottom: 16px;
-  }
-
-  &__description {
-    margin: 0 0 10px;
-    font-size: 16px;
-    color: #001e41;
-    line-height: 24px;
-
-    &--small {
-      margin: 0 0 16px;
-      font-size: 14px;
-      color: #909090;
-    }
-  }
-
-  &__button {
-    margin-bottom: 60px;
-  }
-
-  &__image {
-    object-fit: contain;
-    margin: 50px 60px 30px;
-  }
-
-  &-section {
-    margin-bottom: 90px;
-  }
-}
-
-.enterprises {
-  &__title {
-    font-size: 16px;
-    color: #001e41;
-    margin: 0 0 10px;
-  }
-
-  &__logos {
-    display: flex;
-    align-items: center;
-    gap: 20px;
-  }
-
-  &__link {
-    display: flex;
-  }
-
-  &__img {
-    object-fit: contain;
-  }
-}
-
-.reasons {
-  &__title {
-    margin-bottom: 40px;
-    font-weight: 400;
-    color: #909090;
-    font-size: 36px;
-  }
-}

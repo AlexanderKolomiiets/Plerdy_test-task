@@ -1,0 +1,16 @@
+.card {
+  background-color: #f8f8fa;
+  color: #001e41;
+  padding: 20px;
+  border-radius: 10px;
+
+  &__title {
+    margin: 0;
+    font-size: 16px;
+    font-weight: 700;
+  }
+
+  &__description {
+    font-size: 14px;
+  }
+}
