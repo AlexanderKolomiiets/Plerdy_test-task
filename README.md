@@ -3,7 +3,6 @@
 
 Project is developed for:
 
-- mobile screens: >320px;
 - desktop: >1240px;
 
 Technologies used:
